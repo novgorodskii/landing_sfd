@@ -14,13 +14,11 @@ export default function Home() {
           alt="header-burger-menu-image"
         />
         <div className="wrapper-header offset-xxl">
-          <div className="logo">
-            <img
-              className="logo-image"
-              src="/images/logo-dark.png"
-              alt="logo-image"
-            />
-          </div>
+          <img
+            className="logo-image"
+            src="/images/logo-dark.svg"
+            alt="logo-image"
+          />
           <div className="wrapper-menu">
             <ul className="list-menu">
               <li className="list-item">
@@ -468,7 +466,7 @@ export default function Home() {
             <div className="wrapper-footer-logo">
               <img
                 className="image-logo-footer"
-                src="/images/logo-dark.png"
+                src="/images/logo-dark.svg"
                 alt="image-logo-footer"
               />
               <a className="wrapper-link-button text-md font-weight-md" href="https://warrant-app-five.vercel.app/">
@@ -535,7 +533,7 @@ export default function Home() {
         <div className="wrapper-footer-sm">
           <img
             className="image-logo-footer"
-            src="/images/logo-dark.png"
+            src="/images/logo-dark.svg"
             alt="image-logo-footer"
           />
           <div className="wrapper-footer-column">
