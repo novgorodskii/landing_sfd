@@ -426,7 +426,7 @@ li {
 }
 @media screen and (max-width: 576px) {
   .wrapper-header {
-    margin-bottom: 200px;
+    margin-bottom: 190px;
   }
 }
 
@@ -653,7 +653,7 @@ li {
 }
 @media screen and (max-width: 769px) {
   .header-intro {
-    margin-top: 200px;
+    margin-top: 190px;
   }
 }
 
