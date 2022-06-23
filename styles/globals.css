@@ -415,7 +415,7 @@ li {
 }
 @media screen and (max-width: 576px) {
   .wrapper-header {
-    margin-bottom: 220px;
+    margin-bottom: 200px;
   }
 }
 
@@ -637,12 +637,12 @@ li {
 }
 @media screen and (max-width: 769px) {
   .header-intro .title-header-intro {
-    font-size: 52px;
+    font-size: 44px;
   }
 }
 @media screen and (max-width: 769px) {
   .header-intro {
-    margin-top: 220px;
+    margin-top: 200px;
   }
 }
 
