@@ -134,7 +134,18 @@ li {
 }
 .wrapper-link-button:hover {
   opacity: 0.9;
+  background-color: #182323;
+  color: #fff;
 }
+
+.wrapper-link-button svg {
+  fill: #090D0D;
+  transition: all 0.3s ease;
+}
+
+.wrapper-link-button:hover svg {
+  fill: #fff;
+ }
 @media screen and (max-width: 576px) {
   .wrapper-link-button {
     margin-top: 20px;

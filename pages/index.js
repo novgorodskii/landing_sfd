@@ -33,11 +33,7 @@ export default function Home() {
             </ul>
             <a className="wrapper-link-button text-md font-weight-md" href="#">
               Launch App
-              <img
-                className="wrapper-arrow-img"
-                src="/images/arrow-right.svg"
-                alt="arrow-right"
-              />
+              <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
             </a>
           </div>
           <div className="wrapper-burger-menu">
@@ -71,11 +67,7 @@ export default function Home() {
                       href="#"
                     >
                       Start Trading
-                      <img
-                        className="wrapper-arrow-img"
-                        src="/images/arrow-right.svg"
-                        alt="arrow-right"
-                      />
+                      <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
                     </a>
                   </li>
                 </ul>
@@ -95,11 +87,7 @@ export default function Home() {
           </h1>
           <a className="wrapper-link-button text-md font-weight-md" href="#">
             Start Trading
-            <img
-              className="wrapper-arrow-img"
-              src="/images/arrow-right.svg"
-              alt="arrow-right"
-            />
+            <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
           </a>
         </div>
       </div>
@@ -285,11 +273,7 @@ export default function Home() {
               </p>
               <a className="wrapper-link-button text-md font-weight-md" href="#">
                 Start Trading
-                <img
-                  className="wrapper-arrow-img"
-                  src="/images/arrow-right.svg"
-                  alt="arrow-right"
-                />
+                <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
               </a>
             </div>
             <ul className="how-it-works-list">
@@ -401,11 +385,7 @@ export default function Home() {
             </h5>
             <a className="wrapper-link-button text-md font-weight-md" href="#">
               Launch App
-              <img
-                className="wrapper-arrow-img"
-                src="/images/arrow-right.svg"
-                alt="arrow-right"
-              />
+              <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
             </a>
           </div>
         </div>
@@ -491,11 +471,7 @@ export default function Home() {
               />
               <a className="wrapper-link-button text-md font-weight-md" href="#">
                 Launch App
-                <img
-                  className="wrapper-arrow-img"
-                  src="/images/arrow-right.svg"
-                  alt="arrow-right"
-                />
+                <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
               </a>
             </div>
           </div>
@@ -616,11 +592,7 @@ export default function Home() {
           </div>
           <a className="wrapper-link-button text-md font-weight-md" href="#"
             >Launch App
-            <img
-              className="wrapper-arrow-img"
-              src="/images/arrow-right.svg"
-              alt="arrow-right"
-            />
+            <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
           </a>
         </div>
       </div>
