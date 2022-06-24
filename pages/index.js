@@ -31,7 +31,7 @@ export default function Home() {
                 <a className="link-menu font-size-xs font-weight-md">Blog</a>
               </li>
             </ul>
-            <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com">
+            <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com/market">
               Launch App
               <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
             </a>
@@ -64,7 +64,7 @@ export default function Home() {
                   <li className="list-item">
                     <a
                       className="wrapper-link-button text-md font-weight-md"
-                      href="https://app.godefx.com">
+                      href="https://app.godefx.com/market">
                       Start Trading
                       <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
                     </a>
@@ -84,7 +84,7 @@ export default function Home() {
           >
             Decentralized Contracts for Differences protocol
           </h1>
-          <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com/">
+          <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com/market">
             Start Trading
             <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
           </a>
@@ -270,7 +270,7 @@ export default function Home() {
                 date, the exercise price and the maximum deviation from the
                 current price covered by the contract.
               </p>
-              <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com">
+              <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com/market">
                 Start Trading
                 <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
               </a>
@@ -382,7 +382,7 @@ export default function Home() {
             >
               Trade as a professional!
             </h5>
-            <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com">
+            <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com/market">
               Launch App
               <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
             </a>
@@ -468,7 +468,7 @@ export default function Home() {
                 src="/images/logo-dark.svg"
                 alt="image-logo-footer"
               />
-              <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com">
+              <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com/market">
                 Launch App
                 <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
               </a>
@@ -587,7 +587,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com"
+          <a className="wrapper-link-button text-md font-weight-md" href="https://app.godefx.com/market"
             >Launch App
             <svg className="wrapper-arrow-img" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.75 5.25a.75.75 0 0 0 0 1.5H9l-3.593 3.592a.753.753 0 0 0 1.066 1.065l4.7-4.7a1 1 0 0 0 0-1.415l-4.7-4.7a.753.753 0 1 0-1.066 1.065L9 5.25H.75Z"/></svg>
           </a>
