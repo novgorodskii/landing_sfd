@@ -121,6 +121,7 @@ li {
 }
 
 .wrapper-link-button {
+  cursor: pointer;
   width: 198px;
   min-height: 58px;
   background-color: #ffffff;
