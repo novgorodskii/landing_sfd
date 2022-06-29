@@ -146,6 +146,11 @@ li {
 .wrapper-link-button:hover svg {
   fill: #fff;
  }
+
+.btn-text {
+  font-size: 14px;
+  text-transform: capitalize;
+}
 @media screen and (max-width: 576px) {
   .wrapper-link-button {
     margin-top: 20px;
