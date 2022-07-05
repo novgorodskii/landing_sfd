@@ -6,7 +6,7 @@ const Home = () => {
 
   const [ show, setShow ] = useState(false)
   const { push } = useRouter()
-  let goApp = () => process?.env?.NEXT_PUBLIC_VERSION === "prod"
+  let goApp = () => process?.env?.NEXT_PUBLIC_VERSION === "stage"
     ? setShow(true) : push(`${process?.env?.NEXT_PUBLIC_LINK_APP}`);
 
   return (
