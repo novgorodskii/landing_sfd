@@ -420,7 +420,7 @@ const Home = () => {
             </h2>
             <ul className="for-developers-list">
               <li className="for-developers-list-item offset-xs">
-                <a className="for-developers-list-link" href="#">
+                <a className="for-developers-list-link" href="https://www.notion.so/godefx/White-Paper-546075bcb492495b999f53cac37fd9ea">
                   <h4 className="font-size-lg font-weight-md">White paper</h4>
                   <img
                     className="arrow-top-img"
@@ -435,7 +435,7 @@ const Home = () => {
                 </a>
               </li>
               <li className="for-developers-list-item offset-xs">
-                <a className="for-developers-list-link" href="#">
+                <a className="for-developers-list-link" href="https://www.notion.so/godefx/DeForex-Public-Documentation-e07c7cf03fae4a9c933e2a990b1da551">
                   <h4 className="font-size-lg font-weight-md">Documentation</h4>
                   <img
                     className="arrow-top-img"
@@ -450,7 +450,7 @@ const Home = () => {
                 </a>
               </li>
               <li className="for-developers-list-item offset-xs">
-                <a className="for-developers-list-link" href="#">
+                <a className="for-developers-list-link" href="https://www.notion.so/godefx/Github-DeForex-dd0f107aee6b40738aa5d21ea0987b75">
                   <h4 className="font-size-lg font-weight-md">GitHub</h4>
                   <img
                     className="arrow-top-img"
