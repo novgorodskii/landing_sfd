@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Form from "../components/Form";
@@ -33,13 +34,17 @@ const Home = () => {
           <div className="wrapper-menu">
             <ul className="list-menu">
               <li className="list-item">
-                <a className="link-menu font-size-xs font-weight-md">Learn</a>
+                <Link>
+                  <a className="link-menu font-size-xs font-weight-md">Learn</a>
+                </Link>
               </li>
               <li className="list-item">
                 <a className="link-menu font-size-xs font-weight-md">Develop</a>
               </li>
               <li className="list-item">
-                <a className="link-menu font-size-xs font-weight-md" href="/">Deforex</a>
+                <Link href="/">
+                  <a className="link-menu font-size-xs font-weight-md" >Deforex</a>
+                </Link>
               </li>
             </ul>
             <div onClick={() => goApp()} className="wrapper-link-button text-md font-weight-md">
@@ -70,7 +75,9 @@ const Home = () => {
                     <a className="link-menu font-size-xs font-weight-md">Develop</a>
                   </li>
                   <li className="list-item">
-                    <a className="link-menu font-size-xs font-weight-md" href="/">Deforex</a>
+                    <Link href="/">
+                      <a className="link-menu font-size-xs font-weight-md">Deforex</a>
+                    </Link>
                   </li>
                   <li className="list-item">
                     <div
@@ -499,9 +506,11 @@ const Home = () => {
                     >
                   </li>
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="/"
+                    <Link href="/">
+                    <a className="link-footer font-size-xxs font-weight-md"
                       >Deforex</a
                     >
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -561,9 +570,11 @@ const Home = () => {
                   >
                 </li>
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="/"
+                  <Link href="/">
+                  <a className="link-footer font-size-xxs font-weight-md"
                     >Deforex</a
                   >
+                  </Link>
                 </li>
               </ul>
             </div>

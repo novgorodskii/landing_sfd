@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Form from "../components/Form";
@@ -39,7 +40,9 @@ const Home = () => {
                 <a className="link-menu font-size-xs font-weight-md">Develop</a>
               </li>
               <li className="list-item">
-                <a className="link-menu font-size-xs font-weight-md" href="/cfd">CFD Protocol</a>
+                <Link href="/cfd">
+                  <a className="link-menu font-size-xs font-weight-md">CFD Protocol</a>
+                </Link>
               </li>
             </ul>
             <div onClick={() => goApp()} className="wrapper-link-button text-md font-weight-md">
@@ -70,7 +73,9 @@ const Home = () => {
                     <a className="link-menu font-size-xs font-weight-md">Develop</a>
                   </li>
                   <li className="list-item">
-                    <a className="link-menu font-size-xs font-weight-md" href="/cfd">CFD Protocol</a>
+                    <Link href="/cfd">
+                      <a className="link-menu font-size-xs font-weight-md">CFD Protocol</a>
+                    </Link>
                   </li>
                   <li className="list-item">
                     <div
@@ -493,9 +498,9 @@ const Home = () => {
                     >
                   </li>
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="/cfd"
-                      >CFD Protocol</a
-                    >
+                    <Link href="/cfd">
+                      <a className="link-footer font-size-xxs font-weight-md">CFD Protocol</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -555,9 +560,10 @@ const Home = () => {
                   >
                 </li>
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="/cfd"
-                    >CFD Protocol</a
-                  >
+                  <Link href="/cfd">
+                  <a className="link-footer font-size-xxs font-weight-md"
+                    >CFD Protocol</a>
+                  </Link>
                 </li>
               </ul>
             </div>
