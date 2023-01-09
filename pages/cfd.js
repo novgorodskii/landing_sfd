@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import Form from "../components/Form";
 
-const Home = () => {
+const Cfd = () => {
 
   const [ show, setShow ] = useState(false)
   const { push } = useRouter()
@@ -34,9 +34,7 @@ const Home = () => {
           <div className="wrapper-menu">
             <ul className="list-menu">
               <li className="list-item">
-                <Link>
-                  <a className="link-menu font-size-xs font-weight-md">Learn</a>
-                </Link>
+                <a className="link-menu font-size-xs font-weight-md">Learn</a>
               </li>
               <li className="list-item">
                 <a className="link-menu font-size-xs font-weight-md">Develop</a>
@@ -621,4 +619,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Cfd
