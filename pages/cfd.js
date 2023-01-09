@@ -39,7 +39,7 @@ const Home = () => {
                 <a className="link-menu font-size-xs font-weight-md">Develop</a>
               </li>
               <li className="list-item">
-                <a className="link-menu font-size-xs font-weight-md" href="/cfd">CFD Protocol</a>
+                <a className="link-menu font-size-xs font-weight-md" href="/">Deforex</a>
               </li>
             </ul>
             <div onClick={() => goApp()} className="wrapper-link-button text-md font-weight-md">
@@ -70,7 +70,7 @@ const Home = () => {
                     <a className="link-menu font-size-xs font-weight-md">Develop</a>
                   </li>
                   <li className="list-item">
-                    <a className="link-menu font-size-xs font-weight-md" href="/cfd">CFD Protocol</a>
+                    <a className="link-menu font-size-xs font-weight-md" href="/">Deforex</a>
                   </li>
                   <li className="list-item">
                     <div
@@ -88,12 +88,12 @@ const Home = () => {
         <div className="header-intro">
           <img className="image-dots" src="/images/dots.svg" alt="image-dots" />
           <h2 className="title-intro font-secondary font-size-xxl font-weight-lg">
-            DeForex
+            Smart CFDs
           </h2>
           <h1
             className="title-header-intro font-secondary font-size-xxxl font-weight-lg"
           >
-            Decentralized forex protocol for trading with leverage
+            Decentralized Contracts for Differences protocol
           </h1>
           <div onClick={() => goApp()} className="wrapper-link-button text-md font-weight-md">
             Start Trading
@@ -114,17 +114,21 @@ const Home = () => {
             <p
               className="title-section-about font-secondary font-size-xxxl font-weight-lg"
             >
-              What is DeForex
+              What is CFD
             </p>
           </div>
           <div className="col-lg">
             <p
               className="text-section-about font-size-md font-weight-sm text-opacity"
             >
-              DeForex - true fair and decentralized forex.
-              Trade crypto assets  and make profit with your strategy in  the fully decentralized way.
-              Use maximal leverage make your ROI higher or
-              invest your assets to Auto Leverage Pools (ALP) and earn APY without any risk.
+              A contract for difference (CFD) is a contract between a buyer and
+              a seller that stipulates that the buyer must pay the seller the
+              difference between the current value of an asset and its value at
+              contract time. FDs allow traders and investors an opportunity to
+              profit from price movement without owning the underlying assets.
+              The value of a CFD contract does not consider the asset`&apos;`s
+              underlying value: only the price change between the trade entry
+              and exit.
             </p>
           </div>
         </div>
@@ -188,24 +192,26 @@ const Home = () => {
                 <h3
                   className="title-cards-section-about font-weight-lg font-secondary"
                 >
-                  Old Forex
+                  Old system
                 </h3>
                 <h3
                   className="title-cards-section-about font-weight-lg font-secondary"
                 >
-                  DeForex
+                  Smart CFDs
                 </h3>
               </div>
               <ul className="about-cards-list">
                 <li
                   className="list-item-about list-item-old-system list-item-smart-cfds font-size-sm font-weight-sm"
                 >
-                  Agent`s problem. You give control of your funds to the forex kepper, who could manipulate them
+                  Agent`s problem. You give control of your funds to the broker,
+                  bank and exchange.
                 </li>
                 <li
                   className="list-item-about list-item-old-system list-item-smart-cfds font-size-sm font-weight-sm"
                 >
-                  All funds are kept on blockchain in smart contracts. Our platform or devs cannot seize your money.
+                  All funds are kept on blockchain in smart contracts. Our
+                  platform or devs cannot seize your money.
                 </li>
                 <li
                   className="list-item-about list-item-old-system list-item-smart-cfds font-size-sm font-weight-sm"
@@ -306,7 +312,7 @@ const Home = () => {
                 </p>
                 <div className="how-it-works-list-item-card">
                   <p className="font-weight-md font-size-lg">
-                  Realize your vision of the future asset price.
+                    Realize your vision of the asset price.
                   </p>
                 </div>
               </li>
@@ -318,7 +324,7 @@ const Home = () => {
                 </p>
                 <div className="how-it-works-list-item-card">
                   <p className="font-weight-md font-size-lg">
-                    Choose leverage you need.
+                    Create or take Smart CFD order.
                   </p>
                 </div>
               </li>
@@ -330,7 +336,7 @@ const Home = () => {
                 </p>
                 <div className="how-it-works-list-item-card">
                   <p className="font-weight-md font-size-lg">
-                    Create order to buy or sell Position.
+                    Transfer collateral.
                   </p>
                 </div>
               </li>
@@ -342,7 +348,7 @@ const Home = () => {
                 </p>
                 <div className="how-it-works-list-item-card">
                   <p className="font-weight-md font-size-lg">
-                  Let time and fortune do their job.
+                    Let time and fortune do their job.
                   </p>
                 </div>
               </li>
@@ -374,13 +380,13 @@ const Home = () => {
           </div>
           <div className="col-md">
             <h5 className="font-size-md font-weight-md offset-xxs">
-              There is no third side or censorship!
+              There is no delivery of physical goods or securities with CFDs.
             </h5>
             <h5 className="font-size-md font-weight-md offset-xxs">
-              Always enough liquidity and small spreads - thanks to using best DEXes as providers
+              No delivery - less transaction cost.
             </h5>
             <h5 className="font-size-md font-weight-md offset-xxs">
-              DeForex are created to get pure profit..
+              CFDs are created to get pure profit.
             </h5>
             <h5
               className="font-size-md font-weight-md offset-sm wrapper-bottom-text-gradient"
@@ -493,8 +499,8 @@ const Home = () => {
                     >
                   </li>
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="/cfd"
-                      >CFD Protocol</a
+                    <a className="link-footer font-size-xxs font-weight-md" href="/"
+                      >Deforex</a
                     >
                   </li>
                 </ul>
@@ -555,8 +561,8 @@ const Home = () => {
                   >
                 </li>
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="/cfd"
-                    >CFD Protocol</a
+                  <a className="link-footer font-size-xxs font-weight-md" href="/"
+                    >Deforex</a
                   >
                 </li>
               </ul>

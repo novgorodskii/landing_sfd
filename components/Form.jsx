@@ -12,7 +12,6 @@ const Form = ({close}) => {
   const [ name, setName ] = useState('');
   const [ email, setEmail ] = useState('');
   const saveNote = () => {
-    console.log('sa');
     addDoc(dbInstance, {
       name: name,
       email: email
