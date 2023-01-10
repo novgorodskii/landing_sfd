@@ -7,9 +7,7 @@ const Home = () => {
 
   const [ show, setShow ] = useState(false)
   const { push } = useRouter()
-  let goApp = () => process?.env?.NEXT_PUBLIC_VERSION === "prod"
-    ? setShow(true) : push(`${process?.env?.NEXT_PUBLIC_LINK_APP}`);
-
+  let goApp = () => push(`${process?.env?.NEXT_PUBLIC_LINK_APP}`);
   return (
     <div>
     { show ? <Form close={setShow} /> : null}
