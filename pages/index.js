@@ -34,10 +34,12 @@ const Home = () => {
           <div className="wrapper-menu">
             <ul className="list-menu">
               <li className="list-item">
-                <a className="link-menu font-size-xs font-weight-md">Learn</a>
+                <a className="link-menu font-size-xs font-weight-md"
+                  href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7"
+                >Learn</a>
               </li>
               <li className="list-item">
-                <a className="link-menu font-size-xs font-weight-md">Develop</a>
+                <a className="link-menu font-size-xs font-weight-md" href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7">Develop</a>
               </li>
               <li className="list-item">
                 <Link href="/cfd">
@@ -67,10 +69,12 @@ const Home = () => {
               <div className="wrapper-burger-menu">
                 <ul className="list-menu">
                   <li className="list-item">
-                    <a className="link-menu font-size-xs font-weight-md">Learn</a>
+                    <a className="link-menu font-size-xs font-weight-md"
+                      href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7"
+                    >Learn</a>
                   </li>
                   <li className="list-item">
-                    <a className="link-menu font-size-xs font-weight-md">Develop</a>
+                    <a className="link-menu font-size-xs font-weight-md" href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7">Develop</a>
                   </li>
                   <li className="list-item">
                     <Link href="/cfd">
@@ -419,7 +423,7 @@ const Home = () => {
             </h2>
             <ul className="for-developers-list">
               <li className="for-developers-list-item offset-xs">
-                <a className="for-developers-list-link" href="https://www.notion.so/godefx/White-Paper-546075bcb492495b999f53cac37fd9ea">
+                <a className="for-developers-list-link" href="https://godefx.notion.site/White-Paper-0ad78d7dfd3141c087e97669ae54d0b7">
                   <h4 className="font-size-lg font-weight-md">White paper</h4>
                   <img
                     className="arrow-top-img"
@@ -434,7 +438,7 @@ const Home = () => {
                 </a>
               </li>
               <li className="for-developers-list-item offset-xs">
-                <a className="for-developers-list-link" href="https://www.notion.so/godefx/DeForex-Public-Documentation-e07c7cf03fae4a9c933e2a990b1da551">
+                <a className="for-developers-list-link" href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7">
                   <h4 className="font-size-lg font-weight-md">Documentation</h4>
                   <img
                     className="arrow-top-img"
@@ -449,7 +453,7 @@ const Home = () => {
                 </a>
               </li>
               <li className="for-developers-list-item offset-xs">
-                <a className="for-developers-list-link" href="https://www.notion.so/godefx/Github-DeForex-dd0f107aee6b40738aa5d21ea0987b75">
+                <a className="for-developers-list-link" href="https://github.com/StasPodyachev/deforex-contracts">
                   <h4 className="font-size-lg font-weight-md">GitHub</h4>
                   <img
                     className="arrow-top-img"
@@ -490,10 +494,10 @@ const Home = () => {
                 <h3 className="title-footer font-size-xxs font-weight-md">Links</h3>
                 <ul className="list-footer">
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="#">Learn</a>
+                    <a className="link-footer font-size-xxs font-weight-md" href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7">Learn</a>
                   </li>
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="#"
+                    <a className="link-footer font-size-xxs font-weight-md" href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7"
                       >Develop</a
                     >
                   </li>
@@ -510,17 +514,17 @@ const Home = () => {
                 </h3>
                 <ul className="list-footer">
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="#"
+                    <a className="link-footer font-size-xxs font-weight-md" href="https://twitter.com/GoDeForex"
                       >Twitter</a
                     >
                   </li>
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="#"
+                    <a className="link-footer font-size-xxs font-weight-md" href="https://discord.gg/e8VHmenf"
                       >Discord</a
                     >
                   </li>
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="#"
+                    <a className="link-footer font-size-xxs font-weight-md" href="https://t.me/+CQdQwQxgfKI5MDAy"
                       >Telegram</a
                     >
                   </li>
@@ -530,7 +534,7 @@ const Home = () => {
                     >
                   </li>
                   <li className="list-item-footer">
-                    <a className="link-footer font-size-xxs font-weight-md" href="#"
+                    <a className="link-footer font-size-xxs font-weight-md" href="https://github.com/StasPodyachev/deforex-contracts"
                       >GitHub</a
                     >
                   </li>
@@ -550,12 +554,12 @@ const Home = () => {
               <h3 className="title-footer font-size-xxs font-weight-md">Links</h3>
               <ul className="list-footer">
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="#"
+                  <a className="link-footer font-size-xxs font-weight-md" href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7"
                     >Learn</a
                   >
                 </li>
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="#"
+                  <a className="link-footer font-size-xxs font-weight-md" href="https://godefx.notion.site/DeForex-Public-Documentation-dfb6f960ae8a492b98cd0a87ed0e36c7"
                     >Develop</a
                   >
                 </li>
@@ -571,17 +575,17 @@ const Home = () => {
               <h3 className="title-footer font-size-xxs font-weight-md">Social</h3>
               <ul className="list-footer">
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="#"
+                  <a className="link-footer font-size-xxs font-weight-md" href="https://twitter.com/GoDeForex"
                     >Twitter</a
                   >
                 </li>
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="#"
+                  <a className="link-footer font-size-xxs font-weight-md" href="https://discord.gg/e8VHmenf"
                     >Discord</a
                   >
                 </li>
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="#"
+                  <a className="link-footer font-size-xxs font-weight-md" href="https://t.me/+CQdQwQxgfKI5MDAy"
                     >Telegram</a
                   >
                 </li>
@@ -591,7 +595,7 @@ const Home = () => {
                   >
                 </li>
                 <li className="list-item-footer">
-                  <a className="link-footer font-size-xxs font-weight-md" href="#"
+                  <a className="link-footer font-size-xxs font-weight-md" href="https://github.com/StasPodyachev/deforex-contracts"
                     >GitHub</a
                   >
                 </li>
