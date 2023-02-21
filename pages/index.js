@@ -44,6 +44,11 @@ const Home = () => {
                   <a className="link-menu font-size-xs font-weight-md">CFD Protocol</a>
                 </Link>
               </li>
+              <li className="list-item">
+                <Link href="/faucet">
+                  <a className="link-menu font-size-xs font-weight-md">Faucet</a>
+                </Link>
+              </li>
             </ul>
             <div onClick={() => goApp()} className="wrapper-link-button text-md font-weight-md">
               Launch App
@@ -504,6 +509,13 @@ const Home = () => {
                       <a className="link-footer font-size-xxs font-weight-md">CFD Protocol</a>
                     </Link>
                   </li>
+                  <li className="list-item-footer">
+                    <Link href="/faucet">
+                      <a className="link-footer font-size-xxs font-weight-md">
+                        Faucet
+                      </a>
+                    </Link>
+                  </li>
                 </ul>
               </div>
               <div className="wrapper-col-social">
@@ -565,6 +577,13 @@ const Home = () => {
                   <Link href="/cfd">
                   <a className="link-footer font-size-xxs font-weight-md"
                     >CFD Protocol</a>
+                  </Link>
+                </li>
+                <li className="list-item-footer">
+                  <Link href="/faucet">
+                    <a className="link-footer font-size-xxs font-weight-md">
+                      Faucet
+                    </a>
                   </Link>
                 </li>
               </ul>
