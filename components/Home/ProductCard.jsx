@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 
 const ProductCard = ({ image, title, description, link }) => {
   const router = useRouter();
+  
   return (
     <Flex
       w="328px"
