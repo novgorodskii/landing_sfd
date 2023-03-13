@@ -29,8 +29,8 @@ const RunningLineSection = () => {
        zIndex={2}
     />
     <Flex flexDir="column" justify="center" gap="20px" pos="relative">
-      <RunningLine direction="left" speed={400} />
-      <RunningLine direction="right" speed={250} />
+      <RunningLine direction="left" speed={100} />
+      <RunningLine direction="right" speed={50} />
       <RunningLine direction="left" speed={150} />
     </Flex>
    </Box>
