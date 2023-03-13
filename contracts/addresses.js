@@ -5,7 +5,7 @@ const addresses = [
     tokens: [
       {
         title: "DAI",
-        address: "0x312C1C8F5BC23f08331B1486Da723dd1B80F9040",
+        address: "0x4A0eef739Fe45aE318831Fd02ffb609822C89931",
       },
       {
         title: "ADAI",
@@ -17,15 +17,15 @@ const addresses = [
       },
       {
         title: "USDT",
-        address: "0x3F5a8c43E3700c628F951cedc4f9054882E86BE6",
+        address: "0x119df4B634d3dE1325c708a10f539D1a14e45874",
       },
       {
         title: "USDC",
-        address: "0xEA2aa731c7493BeC9DfB3663E6A9888269d269bF",
+        address: "0xAF596072e91683096bAAebfB0D4a42690f3553F6",
       },
       {
         title: "WETH",
-        address: "0x2E035fAD7c7f4edfA744B73AE605670d48658141",
+        address: "0x329B30e4c9B671ED7fC79AECe9e56215FC40073d",
       },
       {
         title: "TON",
@@ -39,16 +39,24 @@ const addresses = [
     tokens: [
       {
         title: "DAI",
-        address: "0xF6fEd63aAF618d25050e5E3d3B4c525ab2154554",
+        address: "0x6B564626764a3605F32790f75e33e5811aF795eC",
       },
       {
         title: "USDT",
-        address: "0x60965aB564AD3D6069577027DB5d1a43e5AD06a6",
+        address: "0x44B38D7C46f58B5A1965041231e24e65b96A0599",
       },
       {
         title: "USDC",
-        address: "0x2D7eB0e8802d3a530E298a1f94ce176ad6B3Ab43",
+        address: "0xe1a4ef1c623F6e8E436e423dcF16904Ac7560F31",
       },
+      {
+        title: "WETH",
+        address: "0x4c287EFC6804304790A45beE0c85A98EA49EC0EF",
+      },
+      {
+        title: "TON",
+        address: "0x5519d3F946De149f087f742926Aa0B2B94a03B9F",
+      }
     ],
   },
 ];

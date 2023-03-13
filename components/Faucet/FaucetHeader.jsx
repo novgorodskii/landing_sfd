@@ -1,7 +1,6 @@
 import { Box, Container, Flex } from "@chakra-ui/react";
-import Link from "next/link";
 import ConnectBtn from "../ConnectBtn";
-import { Logo } from "../Logo";
+import Logo from "../Logo";
 
 const FaucetHeader = () => {
   return (
