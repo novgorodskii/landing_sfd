@@ -1,13 +1,12 @@
-import Image from "next/image"
-import { Flex, Heading, Text, Button } from "@chakra-ui/react"
+import Image from "next/image";
+import { Flex, Heading, Text, Button } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 
-const ProductCard = ({ image, title, description, link }) => {
+const ProductCard = ({ id, image, title, description, link }) => {
   const router = useRouter();
-  
+
   return (
     <Flex
-      w="328px"
       flexDir="column"
       p="50px"
       gap="30px"
@@ -16,14 +15,18 @@ const ProductCard = ({ image, title, description, link }) => {
       blur="50px"
       borderRadius="25px"
       zIndex={1}
+      css={{
+        scrollSnapAlign: "center",
+      }}
     >
       <Image
-        width={70}
+        width={150}
         height={70}
+        style={{ objectFit: "contain", width: "auto", height: 70 }}
         src={image}
         alt="title"
       />
-      <Flex flexDir="column" gap="12px">
+      <Flex flexDir="column" gap="12px" flexGrow={1}>
         <Heading
           as="h3"
           fontSize="32px"
@@ -50,14 +53,10 @@ const ProductCard = ({ image, title, description, link }) => {
         py="18px"
         borderRadius="500px"
         _hover={{ opacity: 0.8 }}
-        onClick={() => router.push(`product/${title.toLowerCase()}`)}
+        onClick={() => router.push(`product/${id}`)}
       >
         <Flex gap="8px" color="#090D0D" alignItems="center">
-          <Text
-            fontSize="16px"
-            lineHeight="19px"
-            fontWeight={700}
-          >
+          <Text fontSize="16px" lineHeight="19px" fontWeight={700}>
             Learn more
           </Text>
           <Image

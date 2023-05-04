@@ -1,17 +1,16 @@
-import { Flex, Heading, useMediaQuery } from "@chakra-ui/react"
+import { Flex, Heading, useMediaQuery } from "@chakra-ui/react";
 import AboutBlockItem from "./AboutBlockItem";
 
 const AboutBlock = ({ aboutArr }) => {
-  const [isInColumn] = useMediaQuery('(max-width: 1399px');
+  const [isInColumn] = useMediaQuery("(max-width: 1399px");
 
   return (
     <Flex
+      flexGrow={1}
       flexDir="column"
       gap="24px"
-      h={isInColumn ? 'max-content' : '100%'}
-      w={{ base: '100%', xl: '328px' }}
-      alignItems={{ base: 'center', xl: 'flex-start'}}
-      p="30px 30px 65px 30px"
+      h={isInColumn ? "max-content" : "100%"}
+      p={{ base: "16px", md: "36px" }}
       bg="linear-gradient(111.49deg, rgba(174, 192, 255, 0.28) -8.95%, rgba(255, 255, 255, 0.007) 114%)"
       blur="50px"
       borderRadius="25px"
@@ -27,13 +26,14 @@ const AboutBlock = ({ aboutArr }) => {
         About
       </Heading>
       <Flex flexDir="column" gap="36px">
-        {aboutArr && aboutArr.map((aboutItem) => (
-          <AboutBlockItem
-            key={aboutItem?.id}
-            title={aboutItem?.title}
-            value={aboutItem?.value}
-          />
-        ))}
+        {aboutArr &&
+          aboutArr.map((aboutItem) => (
+            <AboutBlockItem
+              key={aboutItem?.id}
+              title={aboutItem?.title}
+              value={aboutItem?.value}
+            />
+          ))}
       </Flex>
     </Flex>
   );

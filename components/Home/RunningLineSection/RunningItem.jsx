@@ -1,5 +1,5 @@
-import { Flex, Text } from "@chakra-ui/react"
-import Image from "next/image"
+import { Flex, Text } from "@chakra-ui/react";
+import Image from "next/image";
 
 const RunningItem = ({ title, image }) => {
   return (
@@ -10,14 +10,13 @@ const RunningItem = ({ title, image }) => {
       gap="14px"
       w="max-content"
       alignItems="center"
-      _last={{ mr: '16px' }}
+      _last={{ mr: "16px" }}
+      filter="grayscale(100%)"
+      _hover={{
+        filter: "grayscale(0%)",
+      }}
     >
-      <Image
-        src={image}
-        width={30}
-        height={30}
-        alt={title}
-      />
+      {image && <Image src={image} width={30} height={30} alt={title} />}
       <Text
         fontSize="20px"
         lineHeight="24px"

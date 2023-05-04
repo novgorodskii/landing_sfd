@@ -1,13 +1,13 @@
-import { Flex, Heading, Text, Button, Container } from "@chakra-ui/react"
-import Image from "next/image"
+import { Flex, Heading, Text, Button, Container } from "@chakra-ui/react";
+import Image from "next/image";
 
 const FirstSection = () => {
   return (
-    <Container maxW="1150px" mt={{ base: '100px', md: '160px'}}>
+    <Container maxW="1150px" p={0}>
       <Flex flexDir="column" gap="30px">
         <Heading
           as="h1"
-          fontSize={{ base: '36px', lg: '52px', xl: '74px'}}
+          fontSize={{ base: "36px", lg: "52px", xl: "74px" }}
           lineHeight="120%"
           fontWeight={700}
           maxW="1036px"
@@ -17,12 +17,13 @@ const FirstSection = () => {
           Constellation of decentralized products and services
         </Heading>
         <Text
-          fontSize={{ base: '16px', lg: '20px'}}
+          fontSize={{ base: "16px", lg: "20px" }}
           lineHeight="130%"
           fontWeight={400}
           opacity={0.8}
         >
-          Log in and get information, access and other first user benefit
+          Join our Wait List and get information, access and other first user
+          benefit
         </Text>
         <Button
           w="max-content"
@@ -34,7 +35,7 @@ const FirstSection = () => {
         >
           <Flex gap="8px" color="#090D0D">
             <Text fontSize="16px" lineHeight="19px" fontWeight={700}>
-              Wait LIST
+              Wait List
             </Text>
             <Image
               src="/images/arrow-right.svg"

@@ -1,51 +1,35 @@
 import ProductCard from "./Home/ProductCard";
-import { Grid, useMediaQuery, Flex, Box } from "@chakra-ui/react"
+import { Container, Grid, GridItem } from "@chakra-ui/react";
 
 const ProductSection = ({ products }) => {
-  const [isMobileCards] = useMediaQuery('(max-width: 769px)');
-  const [isCenteredSlide] = useMediaQuery('(max-width: 400px)');
   return (
-    !isMobileCards ? (
+    <Container maxW="1150px" p={0}>
       <Grid
-        mt="220px"
-        gridTemplateColumns="repeat(auto-fill, 328px)"
-        justifyContent="center"
-        gridGap="30px"
+        templateColumns="repeat(3, minmax(326px, 1fr))"
+        gap={4}
+        overflowX="auto"
+        py={4}
+        mx={{ base: "-16px", md: "-32px", xl: "-64px" }}
+        px={{ base: "16px", md: "32px", xl: "64px" }}
+        css={{
+          scrollSnapType: "x mandatory", // Enable horizontal snap scrolling
+        }}
       >
         {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            image={product.image}
-            title={product.title}
-            description={product.description}
-            link={product.link}
-          />
-        ))}
-      </Grid>
-    ) : (
-      <Flex
-        justify="flex-start"
-        gap="10px"
-        h="max-content"
-        minW="328px"
-        mt="90px"
-        ml={!isCenteredSlide ? '16px' : 0}
-        mr={{ base: '-16px', md: '-32px' }}
-        overflowX="scroll"
-      >
-        <Flex gap="10px">
-          {products.map((product) => (
+          <GridItem display="flex">
             <ProductCard
+              width={"326px"}
+              id={product.id}
               key={product.id}
               image={product.image}
               title={product.title}
               description={product.description}
               link={product.link}
             />
-          ))}
-        </Flex>
-      </Flex>
-    )
+          </GridItem>
+        ))}
+      </Grid>
+    </Container>
   );
 };
 

@@ -1,4 +1,4 @@
-import { Flex, Text, Box } from "@chakra-ui/react"
+import { Flex, Text, Box } from "@chakra-ui/react";
 
 const AboutBlockItem = ({ title, value }) => {
   return (
@@ -19,7 +19,7 @@ const AboutBlockItem = ({ title, value }) => {
       >
         <Box
           m="1px"
-          p="16px 24px"
+          p={{ base: "8px 16px", md: "16px 24px" }}
           bg="#22252D"
           border
           borderRadius="100px"
