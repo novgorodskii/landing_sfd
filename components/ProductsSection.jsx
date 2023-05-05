@@ -16,7 +16,8 @@ const ProductSection = ({ products }) => {
         }}
       >
         {products.map((product) => (
-          <GridItem display="flex">
+          <GridItem display="flex"
+            key={product.id}>
             <ProductCard
               width={"326px"}
               id={product.id}
