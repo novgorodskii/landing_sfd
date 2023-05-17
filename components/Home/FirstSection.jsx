@@ -16,35 +16,6 @@ const FirstSection = () => {
         >
           Constellation of decentralized products and services
         </Heading>
-        <Text
-          fontSize={{ base: "16px", lg: "20px" }}
-          lineHeight="130%"
-          fontWeight={400}
-          opacity={0.8}
-        >
-          Join our Wait List and get information, access and other first user
-          benefit
-        </Text>
-        <Button
-          w="max-content"
-          bg="#fff"
-          borderRadius="500px"
-          h="max-content"
-          p="18px 42px"
-          _hover={{ opacity: 0.8 }}
-        >
-          <Flex gap="8px" color="#090D0D">
-            <Text fontSize="16px" lineHeight="19px" fontWeight={700}>
-              Wait List
-            </Text>
-            <Image
-              src="/images/arrow-right.svg"
-              alt="arrow-right"
-              width={18}
-              height={18}
-            />
-          </Flex>
-        </Button>
       </Flex>
     </Container>
   );

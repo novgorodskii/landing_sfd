@@ -19,26 +19,6 @@ const Footer = () => {
         <Box marginBottom={8}>
           <Logo />
         </Box>
-        <Button
-          w="max-content"
-          bg="#fff"
-          borderRadius="500px"
-          h="max-content"
-          p="18px 42px"
-          _hover={{ opacity: 0.8 }}
-        >
-          <Flex gap="8px" color="#090D0D">
-            <Text fontSize="16px" lineHeight="19px" fontWeight={700}>
-              Wait List
-            </Text>
-            <Image
-              src="/images/arrow-right.svg"
-              alt="arrow-right"
-              width={18}
-              height={18}
-            />
-          </Flex>
-        </Button>
       </Box>
       <Flex gap={{ base: "100px", lg: "144px" }}>
         <Flex flexDir="column" gap="20px">

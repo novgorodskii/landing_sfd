@@ -51,21 +51,21 @@ export const SOCIAL_LINKS = [
 
 export const PRODUCTS_CARDS = [
   {
-    id: 1,
+    id: "D4X",
     image: "/images/products/d4x.svg",
     title: "D4X.io",
     description:
       "Decentralized protocol of making Trade positions with Leverage",
   },
   {
-    id: 2,
+    id: "kolo",
     image: "/images/products/kolo.png",
     title: "kolo",
     description:
       "DAO Auction for sensitive information with Notary dispute system",
   },
   {
-    id: 3,
+    id: "GoDerivatives",
     image: "/images/products/GoD.svg",
     title: "GoDerivatives",
     description:
@@ -354,7 +354,7 @@ export const RUNNING_BLOCKS = [
 
 export const PRODUCT_ITEMS = [
   {
-    id: 1,
+    id: "D4X",
     title: "D4X.io",
     logo: {
       src: "/images/products/d4x.svg",
@@ -365,9 +365,8 @@ export const PRODUCT_ITEMS = [
       orientation: "portrait",
     },
     links: {
-      app: "https://app.d4x.io/",
-      website: "https://d4x.io/",
-      docs: "https://docs.d4x.io/",
+      app: "https://deforex.godefx.com",
+      docs: "https://godefx-docs.gitbook.io/d4x",
     },
     content: `
     <h2>Project Description</h2>
@@ -597,7 +596,7 @@ export const PRODUCT_ITEMS = [
     technologies: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 20],
   },
   {
-    id: 2,
+    id: "kolo",
     title: "kolo",
     logo: {
       src: "/images/products/kolo.png",
@@ -608,8 +607,8 @@ export const PRODUCT_ITEMS = [
       orientation: "album",
     },
     links: {
-      app: "https://app.kolo.io/",
-      docs: "https://docs.kolo.io/",
+      app: "https://kolo.vercel.app",
+      docs: "https://godefx-docs.gitbook.io/kolo",
     },
     content: `
     <h2>Project Description</h2>
@@ -852,7 +851,7 @@ export const PRODUCT_ITEMS = [
     technologies: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 18, 19],
   },
   {
-    id: 3,
+    id: "GoDerivatives",
     title: "GoDerivatives",
     logo: {
       src: "/images/products/GoD.svg",
@@ -863,8 +862,8 @@ export const PRODUCT_ITEMS = [
       orientation: "portrait",
     },
     links: {
-      app: "https://app.goderivatives.io/",
-      docs: "https://docs.goderivatives.io/",
+      app: "https://goderivatives.vercel.app",
+      docs: "https://godefx-docs.gitbook.io/goderivatives",
     },
     content: `
     <h2>Project Description</h2>
