@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Flex, Heading, Text, Button } from "@chakra-ui/react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const ProductCard = ({ id, image, title, description, link }) => {
   const router = useRouter();
@@ -46,14 +47,21 @@ const ProductCard = ({ id, image, title, description, link }) => {
           {description}
         </Text>
       </Flex>
-      <Button
-        w="100%"
-        h="max-content"
-        bg="#fff"
-        py="18px"
-        borderRadius="500px"
-        _hover={{ opacity: 0.8 }}
-        onClick={() => router.push(`product/${id}`)}
+      <Link
+        href={`/product/${id}`}
+        className="learnMoreLink"
+        style={{
+          width: "100%",
+          height: "max-content",
+          background: "#fff",
+          paddingTop: "18px",
+          paddingBottom: "18px",
+          borderRadius: "500px",
+          transition: "all .3s",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
+        }}
       >
         <Flex gap="8px" color="#090D0D" alignItems="center">
           <Text fontSize="16px" lineHeight="19px" fontWeight={700}>
@@ -66,7 +74,7 @@ const ProductCard = ({ id, image, title, description, link }) => {
             alt="arrow-right"
           />
         </Flex>
-      </Button>
+      </Link>
     </Flex>
   );
 };

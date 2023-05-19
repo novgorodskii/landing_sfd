@@ -9,3 +9,7 @@
   src: url('../public/fonts/StageGrotesk/StageGrotesk-Bold.otf');
   font-weight: bold;
 }
+
+.learnMoreLink:hover {
+  opacity: 0.8;
+}
